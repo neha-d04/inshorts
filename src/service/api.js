@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = 'http://localhost:8000';
+const URL = 'https://inshort-server.herokuapp.com';
 export const setNews = async ()=>{
     try {
         return await axios.get(`${URL}/news`)
